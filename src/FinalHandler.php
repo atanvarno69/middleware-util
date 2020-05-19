@@ -17,7 +17,7 @@ use Psr\Http\Message\{
 use Psr\Http\Server\RequestHandlerInterface as Handler;
 
 /** PSR-17 use block. */
-use Interop\Http\Factory\ResponseFactoryInterface as ResponseFactory;
+use Psr\Http\Message\ResponseFactoryInterface as ResponseFactory;
 
 /**
  * Atanvarno\Middleware\Dispatch\FinalHandler
